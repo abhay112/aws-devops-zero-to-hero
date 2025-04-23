@@ -71,3 +71,13 @@ https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat
 
 
 
+
+
+--------------------------
+
+Exposing server IP Adress to internet is bad practice w should use a NAT gateway or a load balancer or ip masking to protect your resources and maintain security.
+
+
+they will send you requests to your server without exposing its actual IP address.
+if it is doing with load balancer we call it SNAT
+if it doing with router then we call it nat gatway.
